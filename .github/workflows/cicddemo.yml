@@ -46,6 +46,6 @@ jobs:
         path: staging
     #fifth, Deploy with Maven
     - name: Deploy
-      run: mvn -B deploy -DmuleDeploy -s .maven/settings.xml
+      run: mvn deploy -DskipMunitTests -DmuleDeploy -Danypoint.username="$PLATFORM_USERNAME" -Danypoint.password="$PLATFORM_PASSWORD"
 
   
