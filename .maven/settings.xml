@@ -1,0 +1,14 @@
+<settings>
+	<servers>
+	<server>
+      <id>MuleRepository</id>
+      <username>${env.NEXUSUSERNAME}</username>
+      <password>${env.NEXUSPASSWORD}</password>
+    </server>
+    <server>
+      <id>anypoint-exchange-v2</id>
+      <username>${env.PLATFORMUSERNAME}</username>
+      <password>${env.PLATFORMPASSWORD}</password>
+    </server>
+	</servers>
+</settings>
