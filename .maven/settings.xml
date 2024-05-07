@@ -7,8 +7,8 @@
     </server>
     <server>
       <id>anypoint-exchange-v2</id>
-      <username>${env.CONNECTEDAPP_CLIENTID}</username>
-      <password>${env.CONNECTEDAPP_CLIENTSECRET}</password>
+      <username>${env.CONNECTEDAPPCLIENTID}</username>
+      <password>${env.CONNECTEDAPPCLIENTSECRET}</password>
     </server>
 	</servers>
 </settings>
