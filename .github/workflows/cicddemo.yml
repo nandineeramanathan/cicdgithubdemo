@@ -48,6 +48,6 @@ jobs:
         path: staging
     #fifth, Deploy with Maven
     - name: Deploy
-      run: mvn deploy -DskipMunitTests -DmuleDeploy -Danypoint.username="$CONNECTEDAPP_CLIENTID" -Danypoint.password="$CONNECTEDAPP_CLIENTSECRET"
+      run: mvn deploy -DskipMunitTests -DmuleDeploy -DCONNECTEDAPP_CLIENTID="$CONNECTEDAPP_CLIENTID" -DCONNECTEDAPP_CLIENTSECRET="$CONNECTEDAPP_CLIENTSECRET"
 
   
