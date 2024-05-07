@@ -20,6 +20,8 @@ env:
   PLATFORM_USERNAME: ${{ secrets.PLATFORMUSERNAME }}
   PLATFORM_PASSWORD: ${{ secrets.PLATFORMPASSWORD }}
   ENVIRONMENT: ${{ secrets.ENVIRONMENT}}
+  CONNECTEDAPP_CLIENTSECRET: ${{ secrets.CONNECTEDAPPCLIENTSECRET }}
+  CONNECTEDAPP_CLIENTID: ${{ secrets.CONNECTEDAPPCLIENTID }}
 
 jobs:
   build:
@@ -46,6 +48,6 @@ jobs:
         path: staging
     #fifth, Deploy with Maven
     - name: Deploy
-      run: mvn deploy -DskipMunitTests -DmuleDeploy -Danypoint.username="$PLATFORM_USERNAME" -Danypoint.password="$PLATFORM_PASSWORD"
+      run: mvn deploy -DskipMunitTests -DmuleDeploy -Danypoint.username="$CONNECTEDAPP_CLIENTID" -Danypoint.password="$CONNECTEDAPP_CLIENTSECRET"
 
   
