@@ -35,12 +35,18 @@
 					<cloudHubDeployment>
                        		<uri>https://anypoint.mulesoft.com</uri>
                        		<muleVersion>${app.runtime}</muleVersion>
-                       		<username>${anypoint.username}</username>
-                       		<password>${anypoint.password}</password>
                        		<applicationName>mulesoft-cicd-sample1</applicationName>
                        		<environment>Sandbox</environment>
                        		<workerType>MICRO</workerType>
                       		 <objectStoreV2>true</objectStoreV2>
+						<connectedAppClientId>${ap.ca.client_id}</connectedAppClientId>
+						<connectedAppClientSecret>${ap.ca.client_secret}</connectedAppClientSecret>
+						<connectedAppGrantType>client_credentials</connectedAppGrantType>
+						<properties>
+							<anypoint.platform.client_id>${ap.client_id}</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>${ap.client_secret}</anypoint.platform.client_secret>
+						</properties>
+					</cloudHubDeployment>
                    	</cloudHubDeployment>
 				</configuration>
 			</plugin>
