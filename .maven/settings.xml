@@ -5,10 +5,15 @@
       <username>${env.NEXUSUSERNAME}</username>
       <password>${env.NEXUSPASSWORD}</password>
     </server>
-    <server>
-      <id>anypoint-exchange-v2</id>
-      <username>${env.CONNECTEDAPPCLIENTID}</username>
-      <password>${env.CONNECTEDAPPCLIENTSECRET}</password>
-    </server>
+   <server>
+			<id>anypoint-exchange-v3</id>
+			<username>~~~Client~~~</username>
+			<password>89e2820255c445b0a3997ce16fc535e5~?~e84eBCb16ee04112A74F6E90A8B406CA</password>
+	</server>
+   <server>
+			<id>anypoint-exchange-v2</id>
+			<username>~~~Client~~~</username>
+			<password>89e2820255c445b0a3997ce16fc535e5~?~e84eBCb16ee04112A74F6E90A8B406CA</password>
+	</server>
 	</servers>
 </settings>
