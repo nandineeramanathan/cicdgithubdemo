@@ -8,12 +8,12 @@
    <server>
 			<id>anypoint-exchange-v3</id>
 			<username>~~~Client~~~</username>
-			<password>89e2820255c445b0a3997ce16fc535e5~?~e84eBCb16ee04112A74F6E90A8B406CA</password>
+			<password>05d2e359d7c2432e8101b471d8362e71~?~5fF32E4A073c4C92867591cf3D9C33c5</password>
 	</server>
    <server>
 			<id>anypoint-exchange-v2</id>
 			<username>~~~Client~~~</username>
-			<password>89e2820255c445b0a3997ce16fc535e5~?~e84eBCb16ee04112A74F6E90A8B406CA</password>
+			<password>05d2e359d7c2432e8101b471d8362e71~?~5fF32E4A073c4C92867591cf3D9C33c5</password>
 	</server>
 	</servers>
 </settings>
