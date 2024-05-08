@@ -35,7 +35,7 @@
 					<cloudHubDeployment>
                        		<uri>https://anypoint.mulesoft.com</uri>
                        		<muleVersion>${app.runtime}</muleVersion>
-                       		<applicationName>mulesoft-cicd-sample1</applicationName>
+                       		<applicationName>mulesoft-cicd-prod15</applicationName>
                        		<environment>Sandbox</environment>
                        		<workerType>MICRO</workerType>
                       		 <objectStoreV2>true</objectStoreV2>
