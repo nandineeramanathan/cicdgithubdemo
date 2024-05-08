@@ -48,7 +48,6 @@ jobs:
         path: staging
     #fifth, Deploy with Maven
     - name: Deploy
-      run: mvn deploy -DskipMunitTests -DmuleDeploy -Dap.client_id=622dd1ffdae74adf85b2eddfd4277770 -Dap.client_secret=5128E7dECF9742b5b3a1FfCcdCB91701  -Dap.ca.client_id=05d2e359d7c2432e8101b471d8362e71 
--Dap.ca.client_secret=5fF32E4A073c4C92867591cf3D9C33c5
+      run: mvn deploy -DskipMunitTests -DmuleDeploy -Dap.client_id=622dd1ffdae74adf85b2eddfd4277770 -Dap.client_secret=5128E7dECF9742b5b3a1FfCcdCB91701  -Dap.ca.client_id=05d2e359d7c2432e8101b471d8362e71 -Dap.ca.client_secret=5fF32E4A073c4C92867591cf3D9C33c5
 
   
